@@ -1,0 +1,147 @@
+body {
+  font-family: 'Kalam', cursive;
+}
+
+.leftPart {
+  background-color: #D68060;
+  height: auto;
+  padding: 5%;
+}
+
+.rightPart {
+  background-color: #F1AE89;
+  height: auto;
+  padding: 5%;
+
+}
+
+.container-fluid {
+  background-color: #C8D9EB;
+  padding: 10px;
+  border: 5px solid #D68060;
+}
+
+.nav-item{
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 0px 15px;
+}
+.textStyle{
+  text-align: center;
+  color: #fff;
+}
+.photo{
+  margin: 30% 0;
+  width:100%;
+  height:auto;
+  max-width:250px ;
+  max-height:250px;
+  border: 2px solid #C8D9EB;
+}
+.myEducation{
+  padding-left: 6%;
+}
+#skills{
+  background-color: #C8D9EB;
+  text-align: left;
+  padding: 10%;
+  color:  #D68060;
+  height: 80vh;
+}
+@media (max-width:1000px) {
+#skills{
+  min-height: 60vh;
+}
+ul{
+  list-style-type: square;
+  font-size: 30px;
+  padding-top: 30px;
+  list-style-position: inside;
+  margin-left: 20%;
+}
+}
+ul{
+  list-style-type: square;
+  font-size: 25px;
+  list-style-position: inside;
+  margin-left: 20%;
+  padding-top: 30px;
+
+}
+h2{
+  text-align: center;
+}
+.myInfo{
+list-style-position: outside;
+  font-size: 20px;
+}
+#courses{
+  display: flex;
+  justify-content: center;
+  background-color: #D68060;
+  color: #fff;
+  font-style: italic;
+  min-height: 70vh;
+}
+.courseHide{
+  visibility: hidden;
+}
+.courseVisible{
+margin: auto 0;
+visibility: visible;
+}
+.courseButton{
+  margin: auto;
+  border-style: none;
+
+}
+
+.listOfCourses{
+  font-size: 15px;
+
+}
+#experience{
+  display:flex;
+  justify-content: center;
+  background-color: #FFF7E9;
+  min-height: 70vh;
+  padding: 15px 0;
+
+}
+.experienceButton{
+  margin: 100% auto ;
+  border-style: none;
+}
+.experienceHide{
+  display: none ;
+}
+.experienceVisible {
+  padding: 3% 10% 0 5%;
+  border: 3px dotted #D68060;
+  background-color:#D68060;
+  text-align: center;
+  border-radius: 5%;
+  display: inline;
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+  font-size: 17px;
+  width: 80%;
+  color:#D68060;
+}
+.designExperience{
+  font-size: 17px;
+  text-align: left;
+  list-style-position:outside;
+  color:#D68060;
+  word-wrap: break-word;
+}
+@keyframes mymove {
+  from {right: -60%;}
+  to {right: -10%; background-color: #FFF7E9;}
+}
+.icon{
+background-color: #FFF7E9;
+margin: 1px;
+color: #D68060;
+}
